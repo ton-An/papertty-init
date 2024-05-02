@@ -138,6 +138,7 @@ panels=(
     EPD5in65f
     EPD5in83
     EPD5in83b
+    EPD7in3f
     EPD7in5
     EPD7in5b_V2
     EPD7in5v2
