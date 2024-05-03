@@ -74,7 +74,7 @@ echo ""
 echo "#1 PaperTTY version"
 echo "There are two places this script can download PaperTTY from."
 echo "The first is the official git repository: https://github.com/joukos/PaperTTY"
-echo "The second is my fork of PaperTTY: https://github.com/mcarr823/PaperTTY"
+echo "The second is my fork of PaperTTY: https://github.com/ton-an/PaperTTY"
 echo ""
 echo "The two repositories are usually identical."
 echo "However, new features I've added land in the fork first, then get submitted as pull requests to the official repository."
@@ -170,6 +170,7 @@ panels=(
     EPD5in65f
     EPD5in83
     EPD5in83b
+    EPD7in3f
     EPD7in5
     EPD7in5b_V2
     EPD7in5v2
@@ -200,7 +201,7 @@ echo ""
 echo "Your settings are as follows:"
 if [ $usefork -eq 1 ]; then
     echo "PaperTTY version: forked"
-    gitrepo="mcarr823"
+    gitrepo="ton-an"
 else
     echo "PaperTTY version: official"
     gitrepo="joukos"
