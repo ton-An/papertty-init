@@ -33,13 +33,13 @@ The desktop version does the following
 If you're using Raspberry Pi OS with a desktop environment, open a terminal and paste this command:
 
 ```bash
-bash -c "$(curl https://sh.mcarr.dev/gui)"
+bash -c "$(curl https://raw.githubusercontent.com/ton-An/papertty-init/main/gui.sh)"
 ```
 
 If you're using Raspberry Pi OS Lite in a text-only environment, type in:
 
 ```bash
-bash -c "$(curl https://sh.mcarr.dev/cli)"
+bash -c "$(curl https://raw.githubusercontent.com/ton-An/papertty-init/main/cli.sh)"
 ```
 
 ## After installation
